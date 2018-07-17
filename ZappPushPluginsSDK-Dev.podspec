@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.requires_arc = true
 
+  s.source_files  = 'ZappPushPluginsSDK/**/*.{h,m,swift}'
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
                 'ENABLE_BITCODE' => 'YES',
                 'SWIFT_VERSION' => '4.1',
