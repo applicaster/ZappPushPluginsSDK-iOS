@@ -1,0 +1,16 @@
+PODS:
+  - ZappPlugins (5.0.1)
+
+DEPENDENCIES:
+  - ZappPlugins (from `Submodules/ZappPlugins/ZappPlugins-Dev.podspec`)
+
+EXTERNAL SOURCES:
+  ZappPlugins:
+    :path: Submodules/ZappPlugins/ZappPlugins-Dev.podspec
+
+SPEC CHECKSUMS:
+  ZappPlugins: 2f81e35259323fad5c395296a4927576cf5e0c76
+
+PODFILE CHECKSUM: c2621cb462fd4b3fec1a9985b471ffd9efdfe65a
+
+COCOAPODS: 1.5.3
