@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
                 'OTHER_CFLAGS'  => '-fembed-bitcode'
               }
 
-  s.dependency 'ZappPlugins'
+  s.dependency 'ZappPlugins' 
 
 end

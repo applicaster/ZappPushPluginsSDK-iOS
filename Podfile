@@ -10,7 +10,6 @@ target 'ZappPushPluginsSDK' do
   pod 'ZappPlugins', :path => 'Submodules/ZappPlugins/ZappPlugins-Dev.podspec'
 
   target 'ZappPushPluginsSDKTests' do
-    inherit! :search_paths
     # Pods for testing
   end
 
