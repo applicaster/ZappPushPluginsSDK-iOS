@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZappPushPluginsSDK"
-  s.version          = '5.0.0'
+  s.version          = '5.0.2'
   s.summary          = "ZappPushPluginsSDK"
   s.description      = <<-DESC
                         ZappPushPluginsSDK container.
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
                 'OTHER_CFLAGS'  => '-fembed-bitcode'
               }
 
-  s.dependency 'ZappPlugins' 
+  s.dependency 'ZappPlugins'
 
 end
