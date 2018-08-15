@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "git@github.com:applicaster/ZappPushPluginsSDK-iOS.git", :tag => s.version.to_s }
   s.platform         = :ios, '9.0'
   s.requires_arc = true
-  s.static_framework = true
+  s.static_framework = false
 
   s.source_files  = 'ZappPushPluginsSDK/**/*.{swift}'
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
