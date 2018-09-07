@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZappPushPluginsSDK"
-  s.version          = '5.1.1'
+  s.version          = '5.1.2'
   s.summary          = "ZappPushPluginsSDK"
   s.description      = <<-DESC
                         ZappPushPluginsSDK container.
