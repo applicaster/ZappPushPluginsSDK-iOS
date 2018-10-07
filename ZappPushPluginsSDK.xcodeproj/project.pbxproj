@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D8E94A7F9EB5A03FB28595F /* Pods_ZappPushPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBE034098CD0C007CBE3FCE /* Pods_ZappPushPluginsSDK.framework */; };
-		F86484785A022179A53D45BC /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EFB02BDBED1DE4713DCD20 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */; };
+		F85D628875A1CA2AC5EE3CA7 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EFB02BDBED1DE4713DCD20 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */; };
 		FA7B20F520FD41D2001DF7C7 /* ZappPushPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7B20EB20FD41D1001DF7C7 /* ZappPushPluginsSDK.framework */; };
 		FA7B20FA20FD41D2001DF7C7 /* ZappPushPluginsSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B20F920FD41D2001DF7C7 /* ZappPushPluginsSDKTests.swift */; };
 		FA7B20FC20FD41D2001DF7C7 /* ZappPushPluginsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7B20EE20FD41D1001DF7C7 /* ZappPushPluginsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +46,8 @@
 		FA7B210520FD4224001DF7C7 /* ZPPushNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPushNotificationManager.swift; sourceTree = "<group>"; };
 		FA7B210720FD4225001DF7C7 /* ZPPushProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPushProviderProtocol.swift; sourceTree = "<group>"; };
 		FA7B210920FD4225001DF7C7 /* ZPPushProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPushProvider.swift; sourceTree = "<group>"; };
+		FABCC173216A4202006210C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FABCC176216A4394006210C9 /* ZappPlugins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZappPlugins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7B20F520FD41D2001DF7C7 /* ZappPushPluginsSDK.framework in Frameworks */,
-				F86484785A022179A53D45BC /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework in Frameworks */,
+				F85D628875A1CA2AC5EE3CA7 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +74,8 @@
 		08E81CBFBF164AAD49612131 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FABCC176216A4394006210C9 /* ZappPlugins.framework */,
+				FABCC173216A4202006210C9 /* Foundation.framework */,
 				1FBE034098CD0C007CBE3FCE /* Pods_ZappPushPluginsSDK.framework */,
 				78A6953ECE2402FDD6478358 /* Pods_ZappPushPluginsSDKTests.framework */,
 				B0EFB02BDBED1DE4713DCD20 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */,
@@ -264,7 +268,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZappPlugins/ZappPlugins.framework",
+				"${PODS_ROOT}/ZappPlugins/ZappPlugins.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

@@ -1,16 +1,16 @@
 PODS:
-  - ZappPlugins (6.0.5)
+  - ZappPlugins (6.1.18)
 
 DEPENDENCIES:
-  - ZappPlugins (from `Submodules/ZappPlugins/ZappPlugins-Dev.podspec`)
+  - ZappPlugins
 
-EXTERNAL SOURCES:
-  ZappPlugins:
-    :path: Submodules/ZappPlugins/ZappPlugins-Dev.podspec
+SPEC REPOS:
+  "git@github.com:applicaster/CocoaPods.git":
+    - ZappPlugins
 
 SPEC CHECKSUMS:
-  ZappPlugins: 735b9a04e6220b2b02b6d5c0bffeb1d6a3cf8548
+  ZappPlugins: a7d2fb5facf194301e2d44bd02dda88c981bbbc5
 
-PODFILE CHECKSUM: 0d9ac86944039d5e3c59970b5b94a60d6708f883
+PODFILE CHECKSUM: cc9f0d91036fa2e341fa305a89029dcac59df4ba
 
 COCOAPODS: 1.5.3
