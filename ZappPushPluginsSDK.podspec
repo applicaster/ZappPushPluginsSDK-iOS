@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZappPushPluginsSDK"
-  s.version          = '5.2.0'
+  s.version          = '6.0.0'
   s.summary          = "ZappPushPluginsSDK"
   s.description      = <<-DESC
                         ZappPushPluginsSDK container.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files  = 'ZappPushPluginsSDK/**/*.{swift}'
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
                 'ENABLE_BITCODE' => 'YES',
-                'SWIFT_VERSION' => '4.1',
+                'SWIFT_VERSION' => '4.2',
                 'OTHER_CFLAGS'  => '-fembed-bitcode'
               }
 
