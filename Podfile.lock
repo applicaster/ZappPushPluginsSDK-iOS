@@ -1,5 +1,5 @@
 PODS:
-  - ZappPlugins (6.1.18)
+  - ZappPlugins (7.0.0)
 
 DEPENDENCIES:
   - ZappPlugins
@@ -9,7 +9,7 @@ SPEC REPOS:
     - ZappPlugins
 
 SPEC CHECKSUMS:
-  ZappPlugins: a7d2fb5facf194301e2d44bd02dda88c981bbbc5
+  ZappPlugins: 4583048b184d5a579cdbb382f9275178beda077b
 
 PODFILE CHECKSUM: cc9f0d91036fa2e341fa305a89029dcac59df4ba
 
