@@ -9,7 +9,7 @@ target 'ZappPushPluginsSDK' do
   use_frameworks!
 
   # Pods for ZappPushPluginsSDK
-  pod 'ZappPlugins'
+  pod 'ZappPlugins', :path => 'Submodules/ZappPlugins/ZappPlugins-Dev.podspec'
 
   target 'ZappPushPluginsSDKTests' do
     # Pods for testing
