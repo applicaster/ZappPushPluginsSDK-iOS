@@ -30,17 +30,17 @@ jobs:
       # Prepere Git and Submodules
       - restore_cache:
           name: Git - restore cache
-          key: Zapp-ZappPushPluginsSDK-v2-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-ZappPushPluginsSDK-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           keys:
-            - Zapp-ZappPushPluginsSDK-v2-{{ .Branch }}-{{ .Revision }}
-            - Zapp-ZappPushPluginsSDK-v2-{{ .Branch }}-
-            - Zapp-ZappPushPluginsSDK-v2-
+            - Zapp-ZappPushPluginsSDK-v3-{{ .Branch }}-{{ .Revision }}
+            - Zapp-ZappPushPluginsSDK-v3-{{ .Branch }}-
+            - Zapp-ZappPushPluginsSDK-v3-
 
       - checkout
 
       - save_cache:
           name: Git - save cache
-          key: Zapp-AnalyticsPlugins-v2-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-ZappPushPluginsSDK-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           paths:
             - ".git"
 
@@ -66,7 +66,7 @@ jobs:
       # Prepare Bundler
       - restore_cache:
           name: Bundler - restore cache
-          key: Zapp-ZappPushPluginsSDK-v2-{{ checksum "Gemfile.lock" }}
+          key: Zapp-ZappPushPluginsSDK-v3-{{ checksum "Gemfile.lock" }}
 
       - run:
           name: Bundler - update dependencies
@@ -74,7 +74,7 @@ jobs:
 
       - save_cache:
           name: Bundler - save cache
-          key: Zapp-ZappPushPluginsSDK-v2-{{ checksum "Gemfile.lock" }}
+          key: Zapp-ZappPushPluginsSDK-v3-{{ checksum "Gemfile.lock" }}
           paths:
             - /Users/distiller/.rubies/ruby-2.4.2/lib/ruby/gems/2.4.0/gems
 
