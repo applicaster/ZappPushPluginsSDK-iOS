@@ -1,16 +1,22 @@
 PODS:
-  - ZappPlugins (7.0.0)
+  - ZappPlugins (9.0.0)
 
 DEPENDENCIES:
-  - ZappPlugins
+  - "ZappPlugins (from `git@github.com:applicaster/ZappPlugins-iOS.git`, branch `dev12`)"
 
-SPEC REPOS:
-  "git@github.com:applicaster/CocoaPods.git":
-    - ZappPlugins
+EXTERNAL SOURCES:
+  ZappPlugins:
+    :branch: dev12
+    :git: "git@github.com:applicaster/ZappPlugins-iOS.git"
+
+CHECKOUT OPTIONS:
+  ZappPlugins:
+    :commit: 7dde2ee9fdc6230760f839045c9d7195f8987573
+    :git: "git@github.com:applicaster/ZappPlugins-iOS.git"
 
 SPEC CHECKSUMS:
-  ZappPlugins: 4583048b184d5a579cdbb382f9275178beda077b
+  ZappPlugins: 25cb9b4605fe3984eaec8c3258c07b8caf0d9a2d
 
-PODFILE CHECKSUM: cc9f0d91036fa2e341fa305a89029dcac59df4ba
+PODFILE CHECKSUM: 31d9794d9c6b0053b6c9a2691aafe41a23340489
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5

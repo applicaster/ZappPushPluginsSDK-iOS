@@ -266,17 +266,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-frameworks.sh",
-				"${PODS_ROOT}/ZappPlugins/ZappPlugins.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappPlugins.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		84F104308FE814EF8B29D608 /* [CP] Check Pods Manifest.lock */ = {
@@ -405,7 +404,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -462,7 +461,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
