@@ -81,7 +81,7 @@ jobs:
       # Restore Cocoapods cache, save cache on lower level, after pod update
       - restore_cache:
           name: CocoaPods - restore cache
-          key: Zapp-ZappPushPluginsSDK-CocoaPods-3
+          key: Zapp-ZappPushPluginsSDK-CocoaPods-4
 
       - run:
           name: CocoaPods - version
@@ -103,7 +103,7 @@ jobs:
       # Cache CocoaPods
       - save_cache:
           name: CocoaPods - save cache
-          key: Zapp-ZappPushPluginsSDK-CocoaPods-3
+          key: Zapp-ZappPushPluginsSDK-CocoaPods-4
           paths:
             - "~/.cocoapods"
             - "Pods"
