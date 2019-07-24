@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D8E94A7F9EB5A03FB28595F /* Pods_ZappPushPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBE034098CD0C007CBE3FCE /* Pods_ZappPushPluginsSDK.framework */; };
-		F85D628875A1CA2AC5EE3CA7 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EFB02BDBED1DE4713DCD20 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */; };
+		1E525BA0B0CA40050EB5DD92 /* Pods_ZappPushPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB0CAA481859901F0FFD3D4 /* Pods_ZappPushPluginsSDK.framework */; };
+		4CE26723E1D5ECB030C3B790 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453BDE969E85C5C865E75C92 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */; };
 		FA7B20F520FD41D2001DF7C7 /* ZappPushPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7B20EB20FD41D1001DF7C7 /* ZappPushPluginsSDK.framework */; };
 		FA7B20FA20FD41D2001DF7C7 /* ZappPushPluginsSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B20F920FD41D2001DF7C7 /* ZappPushPluginsSDKTests.swift */; };
 		FA7B20FC20FD41D2001DF7C7 /* ZappPushPluginsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7B20EE20FD41D1001DF7C7 /* ZappPushPluginsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,15 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FBE034098CD0C007CBE3FCE /* Pods_ZappPushPluginsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappPushPluginsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2276202FCA7A4A7F12E3F897 /* Pods-ZappPushPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E45D7D46CA6B2D97EAE97D7 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		56420D24EC1F031E71F47EAA /* Pods-ZappPushPluginsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDK/Pods-ZappPushPluginsSDK.release.xcconfig"; sourceTree = "<group>"; };
-		56B496C152A931980FD7F6E0 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
-		763CD5DB556943F991177798 /* Pods-ZappPushPluginsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDK/Pods-ZappPushPluginsSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		78A6953ECE2402FDD6478358 /* Pods_ZappPushPluginsSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappPushPluginsSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0EFB02BDBED1DE4713DCD20 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEB790C3428D9790529747AA /* Pods-ZappPushPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		1936B4C05B990F49242EDB1D /* Pods-ZappPushPluginsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDK/Pods-ZappPushPluginsSDK.release.xcconfig"; sourceTree = "<group>"; };
+		24A0F26DFEF41D83E61CEE03 /* Pods-ZappPushPluginsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDK/Pods-ZappPushPluginsSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		453BDE969E85C5C865E75C92 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5DF43DEE13835967A82CF6 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		C101CF03663B53A9FB350CF8 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDB0CAA481859901F0FFD3D4 /* Pods_ZappPushPluginsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappPushPluginsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7B20EB20FD41D1001DF7C7 /* ZappPushPluginsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZappPushPluginsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7B20EE20FD41D1001DF7C7 /* ZappPushPluginsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZappPushPluginsSDK.h; sourceTree = "<group>"; };
 		FA7B20EF20FD41D1001DF7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D8E94A7F9EB5A03FB28595F /* Pods_ZappPushPluginsSDK.framework in Frameworks */,
+				1E525BA0B0CA40050EB5DD92 /* Pods_ZappPushPluginsSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7B20F520FD41D2001DF7C7 /* ZappPushPluginsSDK.framework in Frameworks */,
-				F85D628875A1CA2AC5EE3CA7 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework in Frameworks */,
+				4CE26723E1D5ECB030C3B790 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,22 +73,19 @@
 			children = (
 				FABCC176216A4394006210C9 /* ZappPlugins.framework */,
 				FABCC173216A4202006210C9 /* Foundation.framework */,
-				1FBE034098CD0C007CBE3FCE /* Pods_ZappPushPluginsSDK.framework */,
-				78A6953ECE2402FDD6478358 /* Pods_ZappPushPluginsSDKTests.framework */,
-				B0EFB02BDBED1DE4713DCD20 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */,
+				DDB0CAA481859901F0FFD3D4 /* Pods_ZappPushPluginsSDK.framework */,
+				453BDE969E85C5C865E75C92 /* Pods_ZappPushPluginsSDK_ZappPushPluginsSDKTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE2B6061BCF3C4918A061699 /* Pods */ = {
+		DD779A5D583F7637442B677B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				763CD5DB556943F991177798 /* Pods-ZappPushPluginsSDK.debug.xcconfig */,
-				56420D24EC1F031E71F47EAA /* Pods-ZappPushPluginsSDK.release.xcconfig */,
-				2276202FCA7A4A7F12E3F897 /* Pods-ZappPushPluginsSDKTests.debug.xcconfig */,
-				EEB790C3428D9790529747AA /* Pods-ZappPushPluginsSDKTests.release.xcconfig */,
-				2E45D7D46CA6B2D97EAE97D7 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig */,
-				56B496C152A931980FD7F6E0 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig */,
+				24A0F26DFEF41D83E61CEE03 /* Pods-ZappPushPluginsSDK.debug.xcconfig */,
+				1936B4C05B990F49242EDB1D /* Pods-ZappPushPluginsSDK.release.xcconfig */,
+				C101CF03663B53A9FB350CF8 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig */,
+				BA5DF43DEE13835967A82CF6 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -102,8 +96,8 @@
 				FA7B20ED20FD41D1001DF7C7 /* ZappPushPluginsSDK */,
 				FA7B20F820FD41D2001DF7C7 /* ZappPushPluginsSDKTests */,
 				FA7B20EC20FD41D1001DF7C7 /* Products */,
-				CE2B6061BCF3C4918A061699 /* Pods */,
 				08E81CBFBF164AAD49612131 /* Frameworks */,
+				DD779A5D583F7637442B677B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,7 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7B20FF20FD41D2001DF7C7 /* Build configuration list for PBXNativeTarget "ZappPushPluginsSDK" */;
 			buildPhases = (
-				84F104308FE814EF8B29D608 /* [CP] Check Pods Manifest.lock */,
+				079DBDA88BE7EBDE9327E9FC /* [CP] Check Pods Manifest.lock */,
 				FA7B20E620FD41D1001DF7C7 /* Sources */,
 				FA7B20E720FD41D1001DF7C7 /* Frameworks */,
 				FA7B20E820FD41D1001DF7C7 /* Headers */,
@@ -190,11 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7B210220FD41D2001DF7C7 /* Build configuration list for PBXNativeTarget "ZappPushPluginsSDKTests" */;
 			buildPhases = (
-				AD44512955D486CD9AA1FBF0 /* [CP] Check Pods Manifest.lock */,
+				84E35309D1EE6EB4E45DB550 /* [CP] Check Pods Manifest.lock */,
 				FA7B20F020FD41D2001DF7C7 /* Sources */,
 				FA7B20F120FD41D2001DF7C7 /* Frameworks */,
 				FA7B20F220FD41D2001DF7C7 /* Resources */,
-				1E1E0C139291E48739658AAB /* [CP] Embed Pods Frameworks */,
+				0004F5FF29EF85E0DEC7236D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,16 +255,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E1E0C139291E48739658AAB /* [CP] Embed Pods Frameworks */ = {
+		0004F5FF29EF85E0DEC7236D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-frameworks.sh",
-				"${PODS_ROOT}/ZappPlugins/ZappPlugins.framework",
+				"${BUILT_PRODUCTS_DIR}/ZappPlugins/ZappPlugins.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappPlugins.framework",
 			);
@@ -279,16 +277,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		84F104308FE814EF8B29D608 /* [CP] Check Pods Manifest.lock */ = {
+		079DBDA88BE7EBDE9327E9FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ZappPushPluginsSDK-checkManifestLockResult.txt",
 			);
@@ -297,16 +299,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AD44512955D486CD9AA1FBF0 /* [CP] Check Pods Manifest.lock */ = {
+		84E35309D1EE6EB4E45DB550 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests-checkManifestLockResult.txt",
 			);
@@ -405,7 +411,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -462,7 +468,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -471,7 +477,7 @@
 		};
 		FA7B210020FD41D2001DF7C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 763CD5DB556943F991177798 /* Pods-ZappPushPluginsSDK.debug.xcconfig */;
+			baseConfigurationReference = 24A0F26DFEF41D83E61CEE03 /* Pods-ZappPushPluginsSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -500,7 +506,7 @@
 		};
 		FA7B210120FD41D2001DF7C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56420D24EC1F031E71F47EAA /* Pods-ZappPushPluginsSDK.release.xcconfig */;
+			baseConfigurationReference = 1936B4C05B990F49242EDB1D /* Pods-ZappPushPluginsSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -528,7 +534,7 @@
 		};
 		FA7B210320FD41D2001DF7C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E45D7D46CA6B2D97EAE97D7 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig */;
+			baseConfigurationReference = C101CF03663B53A9FB350CF8 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -547,7 +553,7 @@
 		};
 		FA7B210420FD41D2001DF7C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56B496C152A931980FD7F6E0 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig */;
+			baseConfigurationReference = BA5DF43DEE13835967A82CF6 /* Pods-ZappPushPluginsSDK-ZappPushPluginsSDKTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
