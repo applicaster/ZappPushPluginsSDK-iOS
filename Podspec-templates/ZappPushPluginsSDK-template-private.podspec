@@ -19,5 +19,4 @@ Pod::Spec.new do |s|
               }
 
   s.dependency 'ZappPlugins'
-  s.dependency 'Toaster'
 end
