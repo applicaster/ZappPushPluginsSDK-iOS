@@ -1,6 +1,5 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '10.0'
-source 'git@github.com:CocoaPods/Specs.git'
 source 'git@github.com:applicaster/CocoaPods.git'
 source 'git@github.com:applicaster/CocoaPods-Private.git'
 
@@ -9,7 +8,8 @@ target 'ZappPushPluginsSDK' do
   use_frameworks!
 
   # Pods for ZappPushPluginsSDK
-  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'master'
+  pod 'ZappPlugins', '~> 9.1.8'
+  # pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :tag => '9.1.8'
 
   target 'ZappPushPluginsSDKTests' do
     # Pods for testing
