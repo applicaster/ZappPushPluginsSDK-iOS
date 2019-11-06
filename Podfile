@@ -8,8 +8,7 @@ target 'ZappPushPluginsSDK' do
   use_frameworks!
 
   # Pods for ZappPushPluginsSDK
-  pod 'ZappPlugins', '~> 9.1.8'
-  # pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :tag => '9.1.8'
+  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'master'
 
   target 'ZappPushPluginsSDKTests' do
     # Pods for testing
