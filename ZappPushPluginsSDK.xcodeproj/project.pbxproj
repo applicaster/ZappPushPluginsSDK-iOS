@@ -12,8 +12,6 @@
 		FA7B20F520FD41D2001DF7C7 /* ZappPushPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7B20EB20FD41D1001DF7C7 /* ZappPushPluginsSDK.framework */; };
 		FA7B20FA20FD41D2001DF7C7 /* ZappPushPluginsSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B20F920FD41D2001DF7C7 /* ZappPushPluginsSDKTests.swift */; };
 		FA7B20FC20FD41D2001DF7C7 /* ZappPushPluginsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7B20EE20FD41D1001DF7C7 /* ZappPushPluginsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA7B210A20FD4225001DF7C7 /* ZPPushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B210520FD4224001DF7C7 /* ZPPushNotificationManager.swift */; };
-		FA7B210B20FD4225001DF7C7 /* ZPPushProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B210720FD4225001DF7C7 /* ZPPushProviderProtocol.swift */; };
 		FA7B210C20FD4225001DF7C7 /* ZPPushProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B210920FD4225001DF7C7 /* ZPPushProvider.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +38,6 @@
 		FA7B20F420FD41D2001DF7C7 /* ZappPushPluginsSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZappPushPluginsSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7B20F920FD41D2001DF7C7 /* ZappPushPluginsSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZappPushPluginsSDKTests.swift; sourceTree = "<group>"; };
 		FA7B20FB20FD41D2001DF7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA7B210520FD4224001DF7C7 /* ZPPushNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPushNotificationManager.swift; sourceTree = "<group>"; };
-		FA7B210720FD4225001DF7C7 /* ZPPushProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPushProviderProtocol.swift; sourceTree = "<group>"; };
 		FA7B210920FD4225001DF7C7 /* ZPPushProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPushProvider.swift; sourceTree = "<group>"; };
 		FABCC173216A4202006210C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FABCC176216A4394006210C9 /* ZappPlugins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZappPlugins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,8 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				FA7B210820FD4225001DF7C7 /* BaseInstance */,
-				FA7B210620FD4225001DF7C7 /* Protocols */,
-				FA7B210520FD4224001DF7C7 /* ZPPushNotificationManager.swift */,
 				FA7B20EE20FD41D1001DF7C7 /* ZappPushPluginsSDK.h */,
 				FA7B20EF20FD41D1001DF7C7 /* Info.plist */,
 			);
@@ -129,14 +123,6 @@
 				FA7B20FB20FD41D2001DF7C7 /* Info.plist */,
 			);
 			path = ZappPushPluginsSDKTests;
-			sourceTree = "<group>";
-		};
-		FA7B210620FD4225001DF7C7 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				FA7B210720FD4225001DF7C7 /* ZPPushProviderProtocol.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		FA7B210820FD4225001DF7C7 /* BaseInstance */ = {
@@ -323,8 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7B210B20FD4225001DF7C7 /* ZPPushProviderProtocol.swift in Sources */,
-				FA7B210A20FD4225001DF7C7 /* ZPPushNotificationManager.swift in Sources */,
 				FA7B210C20FD4225001DF7C7 /* ZPPushProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
