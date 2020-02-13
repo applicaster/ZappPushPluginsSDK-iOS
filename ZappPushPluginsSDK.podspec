@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZappPushPluginsSDK"
-  s.version          = '10.0.0'
+  s.version          = '11.0.0'
   s.summary          = "ZappPushPluginsSDK"
   s.description      = <<-DESC
                         ZappPushPluginsSDK container.
@@ -21,5 +21,6 @@ Pod::Spec.new do |s|
               }
 
   s.dependency 'ZappPlugins'
+  s.dependency 'ZappCore'
 
 end
