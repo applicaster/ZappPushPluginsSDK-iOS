@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
               }
 
   s.dependency 'ZappPlugins', '~> 11.3.1'
-  s.dependency 'ZappCore', '= 2020.2.13.21-2-2'
+  s.dependency 'ZappCore'
 
 end
