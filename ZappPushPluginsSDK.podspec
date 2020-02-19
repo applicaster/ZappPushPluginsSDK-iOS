@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/applicaster/ZappPushPluginsSDK-iOS"
   s.license          = 'CMPS'
 	s.author           = "Applicaster LTD."
-  s.source           = { :git => "git@github.com:applicaster/ZappPushPluginsSDK-iOS.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/applicaster/ZappPushPluginsSDK-iOS.git", :tag => s.version.to_s }
   s.platform         = :ios, '10.0'
   s.requires_arc = true
   s.static_framework = false
