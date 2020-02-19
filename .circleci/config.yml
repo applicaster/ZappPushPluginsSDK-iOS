@@ -29,17 +29,17 @@ jobs:
       # Prepere Git and Submodules
       - restore_cache:
           name: Git - restore cache
-          key: Zapp-ZappPushPluginsSDK-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-ZappPushPluginsSDK-v4-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           keys:
-            - Zapp-ZappPushPluginsSDK-v3-{{ .Branch }}-{{ .Revision }}
-            - Zapp-ZappPushPluginsSDK-v3-{{ .Branch }}-
-            - Zapp-ZappPushPluginsSDK-v3-
+            - Zapp-ZappPushPluginsSDK-v4-{{ .Branch }}-{{ .Revision }}
+            - Zapp-ZappPushPluginsSDK-v4-{{ .Branch }}-
+            - Zapp-ZappPushPluginsSDK-v4-
 
       - checkout
 
       - save_cache:
           name: Git - save cache
-          key: Zapp-ZappPushPluginsSDK-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-ZappPushPluginsSDK-v4-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           paths:
             - ".git"
 
