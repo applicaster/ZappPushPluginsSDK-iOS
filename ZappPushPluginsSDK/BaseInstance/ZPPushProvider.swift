@@ -35,8 +35,9 @@ import ZappPlugins
         completion?(true)
     }
 
-    public func disable(completion: ((Bool) -> Void)?) {
+    open func disable(completion: ((Bool) -> Void)?) {
         // TODO: Must be implemented on superclass side
+        UIApplication.shared.unregisterForRemoteNotifications()
         completion?(true)
     }
 
